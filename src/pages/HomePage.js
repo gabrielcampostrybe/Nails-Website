@@ -6,6 +6,7 @@ const HomePage = () => {
 	return (
 		<div>
 			<Navbar />
+      <br />
 			<h1 className='title'>Página Inicial</h1>
 		</div>
 	);

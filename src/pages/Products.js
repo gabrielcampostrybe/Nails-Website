@@ -6,6 +6,7 @@ const Products = () => {
 	return (
 		<div>
 			<Navbar />
+      <br />
 			<h1 className='products-title'>Produtos</h1>
 		</div>
 	);

@@ -7,6 +7,7 @@ const Examples = () => {
 	return (
     <div>
       <Navbar />
+      <br />
       <h1 className='examples-title'>Unhas</h1>
     </div>
   );

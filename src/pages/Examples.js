@@ -1,10 +1,13 @@
 import React from 'react';
 import './Examples.css';
+import Navbar from '../components/Navbar';
+import './Examples.css';
 
 const Examples = () => {
 	return (
     <div>
-      <h1>Nail Examples</h1>
+      <Navbar />
+      <h1 className='examples-title'>Unhas</h1>
     </div>
   );
 };

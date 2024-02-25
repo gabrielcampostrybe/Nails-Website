@@ -1,7 +1,29 @@
+.needle-nail-drill {
+	margin: 20px;
+	margin-top: 50px;
+}
+
+.mini-cone-nail-drill {
+	margin: 20px;
+	margin-top: 50px;
+}
+
+.nail-drill-img {
+	width: 300px;
+	height: 300px;
+}
+
 .nail-drill-desc {
 	text-align: left;
 }
 
 .nail-drill-desc p {
 	text-align: justify;
+}
+
+@media (max-width: 350px) {
+	.nail-drill img {
+		width: 200px;
+		height: 200px;
+	}
 }

@@ -1,65 +1,29 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import passo1e2 from '../img/passo1e2.png';
+import './Step1And2.css';
 
 const Step1And2 = () => {
 	return (
 		<>
 			<Navbar />
-			<h3>Passo 1 e Passo 2</h3>
-			<img src={passo1e2} alt='imagem do passo 1 e passo 2' />
-      <h4>Descrição do produto</h4>
-			<div className='constructor-gel-desc'>
-				<br />
-				<p>
-					Gel para unhas com formulação inovadora. Possui Tecnologia
-					CurvaturaSmart que permite Estrutura Naturalidade com alta resistência
-					e durabilidade. Desenvolvido dentro dos nossos laboratórios, o Gel
-					Construtor Querido Nude Bluwe foi pensado minuciosamente e performa
-					incrivelmente em qualquer tipo de unha natural.
-				</p>
-				<p>
-					Os Géis Construtores Bluwe são tudo o que há de mais moderno do
-					mercado de matéria prima. Fizemos uma formulação com Tecnologia Smart,
-					ou seja, conseguimos uma curvatura de memória, onde não precisa o gel
-					ser rígido para segurar a curvatura. Com isso, os alongamentos não
-					ficam duros e quebradiços, e sim flexíveis e com memória de formato.
-					Com ele é mais seguro para alcançar a tão almejada Naturalidade.
-				</p>
-				<p>Viscosidade ideal para ser auto nivelante sem escorrer.</p>
-				<p>
-					Pode ser usado em todas as etapas: capa base para unhas normais,
-					extensão e ponto de tensão.
-				</p>
-				<p>
-					<b>O encanto:</b> Viscosidade ideal para manuseio facilitado, nivela
-					mas não escorre com facilidade.Formulação incrível para naturalidade.
-					Baixo aquecimento.
-				</p>
-				<p>
-					<b>COR:</b> Querido Nude - Nude intenso de cobertura média com subtom
-					quente.
-				</p>
-				<p>
-					<b>MODO DE USO:</b> Aplique camadas do produto sobre a unha, moldando
-					da forma desejada e coloque para catalisar sob luz uv por 120
-					segundos.
-				</p>
-				<p>
-					<b>INDICAÇÃO DE USO:</b> O Gel Construtor Querido Nude Bluwe pode ser
-					usado em todas as etapas do alongamento, da capa base ao ponto de
-					tensão.
-				</p>
-				<p>
-					<b>COMPOSIÇÃO:</b> Acrylates Copolymer, Trimethylolpropane
-					Trimethacrylate, Triethylene Glycol Dimethacrylate, Isobornyl
-					Methacrylate, Trimethylbenzoyl Diphenylphosphine Oxide, Benzoyl
-					Isopropanol, Poly Methyl Styrene Isopropanol Ketone,
-					Trimethylbenzophenone, Methyl Benzophenone, Methacryloylethyl
-					Phosphate, Benzoyl Isopropanol, BHA, Calcium Aluminum Borosilicate.
-					Pode conter os corantes: CI 15850, CI 60725, CI 77891, CI 77491, CI
-					77019.
-				</p>
+			<div className='step-1-and-2'>
+				<h2>Passo 1 e Passo 2</h2>
+				<img
+					src={passo1e2}
+					alt='imagem do passo 1 e passo 2'
+					className='step-1-and-2-img'
+				/>
+				<h3>Descrição do produto</h3>
+				<div className='step-1-and-2-desc'>
+					<h4>Passo 1</h4>
+					<p>Desidrata, desengordura e retira a umidade das unhas naturais;</p>
+					<h4>Passo 2</h4>
+					<p>
+						Fixador PH Bonder, adesivador de gel com película dual coat
+						garantindo aderência extra evitando infiltrações;
+					</p>
+				</div>
 			</div>
 		</>
 	);

@@ -1,4 +1,4 @@
 .home-page-title {
 	text-align: center;
-	color: black;
+	color: var(--text-color);
 }

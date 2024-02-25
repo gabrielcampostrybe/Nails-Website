@@ -1,7 +1,24 @@
+.base-cover {
+	margin: 20px;
+	margin-top: 50px;
+}
+
+.base-cover-img {
+	width: 300px;
+	height: 300px;
+}
+
 .base-cover-desc {
 	text-align: left;
 }
 
 .base-cover-desc p {
 	text-align: justify;
+}
+
+@media (max-width: 350px) {
+	.base-cover img {
+		width: 200px;
+		height: 200px;
+	}
 }

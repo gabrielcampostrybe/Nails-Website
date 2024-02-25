@@ -1,7 +1,24 @@
+.fiber {
+	margin: 20px;
+	margin-top: 50px;
+}
+
+.fiber-img {
+	width: 300px;
+	height: 300px;
+}
+
 .fiber-desc {
 	text-align: left;
 }
 
 .fiber-desc p {
 	text-align: justify;
+}
+
+@media (max-width: 350px) {
+	.fiber img {
+		width: 200px;
+		height: 200px;
+	}
 }

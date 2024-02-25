@@ -1,7 +1,24 @@
+.top-coat {
+	margin: 20px;
+	margin-top: 50px;
+}
+
+.top-coat-img {
+	width: 300px;
+	height: 300px;
+}
+
 .top-coat-desc {
 	text-align: left;
 }
 
 .top-coat-desc p {
 	text-align: justify;
+}
+
+@media (max-width: 350px) {
+	.top-coat img {
+		width: 200px;
+		height: 200px;
+	}
 }

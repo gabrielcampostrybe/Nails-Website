@@ -21,10 +21,13 @@ const Navbar = () => {
 
 	useEffect(() => {
 		const body = document.body;
+		const root = document.documentElement;
 		if (isDarkMode) {
-			body.style.backgroundColor = 'rgb(25, 37, 66)';
+			body.style.backgroundColor = 'rgb(12, 13, 59)';
+			root.style.setProperty('--text-color', 'white');
 		} else {
 			body.style.backgroundColor = 'rgb(180, 180, 180)';
+			root.style.setProperty('--text-color', 'black');
 		}
 	}, [isDarkMode]);
 

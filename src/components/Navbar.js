@@ -22,7 +22,7 @@ const Navbar = () => {
 	useEffect(() => {
 		const body = document.body;
 		if (isDarkMode) {
-			body.style.backgroundColor = 'rgb(34, 34, 34)';
+			body.style.backgroundColor = 'rgb(25, 37, 66)';
 		} else {
 			body.style.backgroundColor = 'rgb(180, 180, 180)';
 		}
@@ -36,8 +36,8 @@ const Navbar = () => {
 						Página Inicial
 					</a>
 					<br />
-					<a className='nails-examples' href='/examples'>
-						Unhas
+					<a className='nails-gallery' href='/gallery'>
+						Galeria
 					</a>
 					<br />
 					<a className='products' href='/products'>

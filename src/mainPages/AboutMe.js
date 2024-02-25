@@ -6,8 +6,8 @@ const AboutMe = () => {
 	return (
 		<div>
 			<Navbar />
-      <br />
-			<h1 className='about-me-title'>Sobre</h1>
+			<br />
+			<h2 className='about-me-title'>Sobre</h2>
 		</div>
 	);
 };

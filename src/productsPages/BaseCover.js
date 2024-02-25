@@ -8,57 +8,42 @@ const BaseCover = () => {
 			<Navbar />
 			<h3>Capa Base</h3>
 			<img src={capaBase} alt='imagem da capa base' />
-      <h4>Descrição do produto</h4>
-			<div className='constructor-gel-desc'>
+			<h4>Descrição do produto</h4>
+			<div className='base-cover-desc'>
 				<br />
 				<p>
-					Gel para unhas com formulação inovadora. Possui Tecnologia
-					CurvaturaSmart que permite Estrutura Naturalidade com alta resistência
-					e durabilidade. Desenvolvido dentro dos nossos laboratórios, o Gel
-					Construtor Querido Nude Bluwe foi pensado minuciosamente e performa
-					incrivelmente em qualquer tipo de unha natural.
+					Gel para unhas com formulação inovadora. Altíssima aderência à unha
+					natural. Desenvolvido dentro dos nossos laboratórios, o Gel Capa Base
+					Flex Super Clear Bluwe foi pensado minuciosamente e performa
+					incrivelmente em qualquer tipo de unha natural. Gel de altíssima
+					flexibilidade e aderência. O Gel Capa Base tem uma aderência surreal!
+					Na composição dele adicionamos matérias primas extremamente aderentes.
+					Além disso, possui flexibilidade altíssima, sendo indicado para
+					qualquer tipo de unha, inclusive as mais finas. Também é excelente
+					para aderência das Tip de Gel. Ele pode ser usado para capa base de
+					alongamento, blindagens em unhas mais firmes, base para esmaltação em
+					gel e aderência de Tip de Gel.
 				</p>
 				<p>
-					Os Géis Construtores Bluwe são tudo o que há de mais moderno do
-					mercado de matéria prima. Fizemos uma formulação com Tecnologia Smart,
-					ou seja, conseguimos uma curvatura de memória, onde não precisa o gel
-					ser rígido para segurar a curvatura. Com isso, os alongamentos não
-					ficam duros e quebradiços, e sim flexíveis e com memória de formato.
-					Com ele é mais seguro para alcançar a tão almejada Naturalidade.
-				</p>
-				<p>Viscosidade ideal para ser auto nivelante sem escorrer.</p>
-				<p>
-					Pode ser usado em todas as etapas: capa base para unhas normais,
-					extensão e ponto de tensão.
+					<b>O encanto:</b> Incrível para qualquer tipo de unha pois acompanha a
+					flexibilidade da unha natural. Não trinca em blindagens.
 				</p>
 				<p>
-					<b>O encanto:</b> Viscosidade ideal para manuseio facilitado, nivela
-					mas não escorre com facilidade.Formulação incrível para naturalidade.
-					Baixo aquecimento.
+					<b>COR:</b> Super Clear - O verdadeiro transparente. Sem fundo
+					roxo/azul
 				</p>
 				<p>
-					<b>COR:</b> Querido Nude - Nude intenso de cobertura média com subtom
-					quente.
+					<b>PRECAUÇÕES:</b> Manter afastado da luz da cabine e/ou da claridade
+					solar. Manter longe do alcance de crianças e animais. Em caso de
+					contato com os olhos, lave com água em abundância.
 				</p>
 				<p>
-					<b>MODO DE USO:</b> Aplique camadas do produto sobre a unha, moldando
-					da forma desejada e coloque para catalisar sob luz uv por 120
-					segundos.
+					<b>MODO DE USO:</b> Aplique o produto sobre a unha e catalise sob luz
+					UV por 60 segundos.
 				</p>
 				<p>
-					<b>INDICAÇÃO DE USO:</b> O Gel Construtor Querido Nude Bluwe pode ser
-					usado em todas as etapas do alongamento, da capa base ao ponto de
-					tensão.
-				</p>
-				<p>
-					<b>COMPOSIÇÃO:</b> Acrylates Copolymer, Trimethylolpropane
-					Trimethacrylate, Triethylene Glycol Dimethacrylate, Isobornyl
-					Methacrylate, Trimethylbenzoyl Diphenylphosphine Oxide, Benzoyl
-					Isopropanol, Poly Methyl Styrene Isopropanol Ketone,
-					Trimethylbenzophenone, Methyl Benzophenone, Methacryloylethyl
-					Phosphate, Benzoyl Isopropanol, BHA, Calcium Aluminum Borosilicate.
-					Pode conter os corantes: CI 15850, CI 60725, CI 77891, CI 77491, CI
-					77019.
+					<b>INDICAÇÃO DE USO:</b> Capa base para alongamentos ou esmaltação em
+					gel; aplicação de fibra; blindagem.
 				</p>
 			</div>
 		</>

@@ -1,6 +1,7 @@
 .fiber {
 	margin: 20px;
 	margin-top: 50px;
+	text-align: center;
 }
 
 .fiber-img {
@@ -9,11 +10,8 @@
 }
 
 .fiber-desc {
-	text-align: left;
-}
-
-.fiber-desc p {
-	text-align: justify;
+	margin-left: 20vw;
+	margin-right: 20vw;
 }
 
 @media (max-width: 350px) {

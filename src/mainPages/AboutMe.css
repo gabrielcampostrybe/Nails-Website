@@ -2,3 +2,17 @@
 	text-align: center;
 	color: var(--text-color);
 }
+
+.about-me-description {
+	margin-top: 50px;
+	margin-left: 30vw;
+	margin-right: 30vw;
+	text-align: center;
+	text-align: justify;
+	font-size: large;
+	color: var(--text-color);
+}
+
+.about-me-description p {
+	font-family: 'Courier New', Courier, monospace;
+}

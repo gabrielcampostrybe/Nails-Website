@@ -1,6 +1,7 @@
 .constructor-gel {
 	margin: 20px;
 	margin-top: 50px;
+	text-align: center;
 }
 
 .constructor-gel-img {
@@ -9,11 +10,8 @@
 }
 
 .constructor-gel-desc {
-	text-align: left;
-}
-
-.constructor-gel-desc p {
-	text-align: justify;
+	margin-left: 20vw;
+	margin-right: 20vw;
 }
 
 @media (max-width: 350px) {

@@ -39,12 +39,12 @@ const Navbar = () => {
 						Página Inicial
 					</a>
 					<br />
-					<a className='nails-gallery' href='/gallery'>
-						Galeria
-					</a>
-					<br />
 					<a className='products' href='/products'>
 						Produtos
+					</a>
+					<br />
+					<a className='nails-gallery' href='/gallery'>
+						Galeria
 					</a>
 					<br />
 					<a className='about-me' href='/aboutme'>

@@ -1,6 +1,7 @@
 .nail-polish {
 	margin: 20px;
 	margin-top: 50px;
+	text-align: center;
 }
 
 .nail-polish-img {
@@ -9,11 +10,8 @@
 }
 
 .nail-polish-desc {
-	text-align: left;
-}
-
-.nail-polish-desc p {
-	text-align: justify;
+	margin-left: 20vw;
+	margin-right: 20vw;
 }
 
 @media (max-width: 350px) {

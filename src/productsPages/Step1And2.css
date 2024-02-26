@@ -1,6 +1,7 @@
 .step-1-and-2 {
 	margin: 20px;
 	margin-top: 50px;
+	text-align: center;
 }
 
 .step-1-and-2-img {
@@ -9,11 +10,8 @@
 }
 
 .step-1-and-2-desc {
-	text-align: left;
-}
-
-.step-1-and-2-desc p {
-	text-align: justify;
+	margin-left: 20vw;
+	margin-right: 20vw;
 }
 
 @media (max-width: 350px) {

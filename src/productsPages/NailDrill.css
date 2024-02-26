@@ -1,11 +1,13 @@
 .needle-nail-drill {
 	margin: 20px;
 	margin-top: 50px;
+	text-align: center;
 }
 
 .mini-cone-nail-drill {
 	margin: 20px;
 	margin-top: 50px;
+	text-align: center;
 }
 
 .nail-drill-img {
@@ -14,11 +16,8 @@
 }
 
 .nail-drill-desc {
-	text-align: left;
-}
-
-.nail-drill-desc p {
-	text-align: justify;
+	margin-left: 20vw;
+	margin-right: 20vw;
 }
 
 @media (max-width: 350px) {

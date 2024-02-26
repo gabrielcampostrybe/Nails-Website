@@ -1,6 +1,7 @@
 .base-cover {
 	margin: 20px;
 	margin-top: 50px;
+	text-align: center;
 }
 
 .base-cover-img {
@@ -9,11 +10,8 @@
 }
 
 .base-cover-desc {
-	text-align: left;
-}
-
-.base-cover-desc p {
-	text-align: justify;
+	margin-left: 20vw;
+	margin-right: 20vw;
 }
 
 @media (max-width: 350px) {
